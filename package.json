@@ -1,0 +1,30 @@
+{
+	"name": "tooling_electron_ts",
+	"version": "0.0.1",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "npx tsc"
+	},
+	"devDepencies": {
+		"typescript": "^3.4.5"
+	},
+	"description": "",
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DunZzzz/tooling_electron_ts.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DunZzzz/tooling_electron_ts/issues"
+	},
+	"homepage": "https://github.com/DunZzzz/tooling_electron_ts#readme",
+	"dependencies": {
+		"typescript": "^3.8.3"
+	}
+}
