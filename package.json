@@ -4,7 +4,8 @@
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"build": "npx tsc"
+		"build": "npx tsc",
+		"postinstall": "npm run build"
 	},
 	"devDepencies": {
 		"typescript": "^3.4.5"
